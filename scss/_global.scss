@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+    height: 664px;
+    
+}
+
+
+
+@media only screen and (max-width:320px) {
+    .container{
+        scroll-behavior: unset;
+        width: 320px;
+        
+    }
+}
